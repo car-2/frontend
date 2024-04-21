@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th { 
+  border: 3px solid #000221;
+  padding: 10px;
+}
+
+h1 {
+
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+form {
+
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #000221;
+  border-radius: 10px;
+
+}
+
+label{
+  display: block;
+}
+
+input {
+  color: #000221;
+  padding: 10px;
+  border: 2px solid #000221;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+}
+
+input:focus {
+  border-color: #4a56e2;
+}

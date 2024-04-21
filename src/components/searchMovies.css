@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px; 
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.9); 
+  }
+  
+  ::placeholder {
+    color: #777;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9; 
+  }
+  
+  .movie-card h2 {
+    font-size: 22px; 
+  }
