@@ -51,7 +51,7 @@ export default function DirectorV() {
               <td>{<Link to={`/edicion/director/${director._id}`}>Editar</Link>}</td>
               <td>
                 {
-                  <button type="button" onClick={() => eliminar(director._id)}>
+                  <button className="text-red-800" type="button" onClick={() => eliminar(director._id)}>
                     Borrar
                   </button>
                 }

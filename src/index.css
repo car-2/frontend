@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: #1c1e36;
+}
+
 th { 
   border: 3px solid #000221;
   padding: 10px;
@@ -39,4 +43,9 @@ input {
 
 input:focus {
   border-color: #4a56e2;
+}
+
+td {
+  border: 3px solid #000221;
+  padding: 10px;
 }

@@ -52,7 +52,7 @@ export default function TipoV() {
               <td>{<Link to={`/edicion/tipo/${tipo._id}`}>Editar</Link>}</td>
               <td>
                 {
-                  <button type="button" onClick={() => eliminar(tipo._id)}>
+                  <button className="text-red-800" type="button" onClick={() => eliminar(tipo._id)}>
                     Borrar
                   </button>
                 }

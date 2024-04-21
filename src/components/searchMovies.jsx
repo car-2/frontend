@@ -31,7 +31,7 @@ export default function SearchMovies() {
 
   return (
     <div className="container">
-      <h1 className="title">Buscador de Películas</h1>
+      <h1 className="text-3xl text-[#fff]">Buscador de Películas</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -39,7 +39,7 @@ export default function SearchMovies() {
           value={busqueda}
           onChange={handleInputChange}
         />
-        <button type="submit" className="search-button">
+        <button type="submit" className="search-button text-xl text-[#fff]">
           Buscar
         </button>
       </form>

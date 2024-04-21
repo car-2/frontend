@@ -53,7 +53,7 @@ export default function ProductoraV() {
                     <td>{productora.fechaCreacion}</td>
                     <td>{productora.fechaActualizacion}</td>
                     <td>{<Link to={`/edicion/productora/${productora._id}`}>Editar</Link>}</td>
-                    <td>{<button type='button' onClick={() => eliminar(productora._id)}>Borrar</button>}</td>
+                    <td>{<button className="text-red-800" type='button' onClick={() => eliminar(productora._id)}>Borrar</button>}</td>
                 </tr>
             ))}
         </tbody>

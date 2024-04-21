@@ -63,7 +63,7 @@ export default function datoV() {
               <td>{dato.CreadaEn}</td>
               <td>{dato.ActualizadaEn}</td>
               <td>{<Link to={`/edicion/media/${dato._id}`}>Editar</Link>}</td>
-              <td>{<button type="button" onClick={() => eliminar(dato._id)}>Borrar</button>}</td>
+              <td>{<button className="text-red-800" type="button" onClick={() => eliminar(dato._id)}>Borrar</button>}</td>
             </tr>
           ))}
         </tbody>

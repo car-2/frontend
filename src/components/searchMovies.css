@@ -1,24 +1,39 @@
 body {
-    margin: 0;
+    margin: 20px;
     padding: 0;
   }
   
   .container {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 30px; 
     margin-top: 50px;
-    background: rgba(255, 255, 255, 0.9); 
+    margin-bottom: 50px;
+    background: #160d25; 
   }
-  
-  ::placeholder {
-    color: #777;
+
+  .movie-list {
+    gap: 40px;
+    display: grid;
+    background: transparent;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 50px;
   }
   
   .movie-card {
-    background-color: #f9f9f9; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: scroll;
+
+  }
+  .movie-card p {
+    color: #1a1a1a;
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 5px;
+    display: inline-block;
   }
   
-  .movie-card h2 {
-    font-size: 22px; 
-  }
+ 

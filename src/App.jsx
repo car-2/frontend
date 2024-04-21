@@ -15,11 +15,6 @@ function App() {
   return (
     <div
       className="App"
-      style={{
-        backgroundImage: `url(${Imagen})`,
-        backgroundSize: "cover",
-        height: "100vh",
-      }}
     >
       <Navbar />
       <Routes>

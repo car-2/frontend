@@ -53,7 +53,7 @@ export default function GeneroV() {
                             <td>{genero.fechaCreacion}</td>
                             <td>{genero.fechaActualizacion}</td>
                             <td>{<Link to={`/edicion/genero/${genero._id}`}>Editar</Link>}</td>
-                            <td>{<button type='button' onClick={() => eliminar(genero._id)}>Borrar</button>}</td>
+                            <td>{<button className="text-red-800" type='button' onClick={() => eliminar(genero._id)}>Borrar</button>}</td>
                         </tr>
                     ))}
                 </tbody>
